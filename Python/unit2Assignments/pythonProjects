@@ -1,0 +1,765 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Unit2_Assignments.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOJQCOjIKO3o+LKG4P+za3K",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/syeadn2001/data_analytics_2/blob/main/Python/unit2Assignments/pythonProjects\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "tRntcMDzEqAV"
+      },
+      "source": [
+        "# UNIT 2_L2"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Km7wG3D6D7m9",
+        "outputId": "e4ca821d-70fa-4c6e-f1e4-cdec6b2af083"
+      },
+      "source": [
+        "first = \"Adnaan\"\n",
+        "last = \"Syed\"\n",
+        "emailExt = \"@aol.com\"\n",
+        "\n",
+        "emailAddress = first + last + emailExt\n",
+        "\n",
+        "print(emailAddress)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "AdnaanSyed@aol.com\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DjCzzNl4FjNZ",
+        "outputId": "4023bc67-1042-4c3b-fa05-c1127ec8bbd7"
+      },
+      "source": [
+        "name = \"Tony Stark\"\n",
+        "print(name.lower())\n",
+        "print(name.upper() )"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "tony stark\n",
+            "TONY STARK\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aqCbqpYcFsIe",
+        "outputId": "3341e172-2eb1-43a5-d4f8-2deb13edbf71"
+      },
+      "source": [
+        "date = 17\n",
+        "\n",
+        "message = 'Do you want to hang out on the ' +str(date)+'th of this month?'\n",
+        "print(message)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Do you want to hang out on the 17th of this month?\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "A8XY41UcG4It"
+      },
+      "source": [
+        "# Unit2_L3"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "hl4rel-nMYmg"
+      },
+      "source": [
+        "shows = [\"Courage\", \"Spongebob\", \"Breaking Bad\", \"Over the Garden Wall\", \"idk\"]\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tssyigswM3fw",
+        "outputId": "bb689ff9-b4dc-43f0-e2b9-2d371031c07d"
+      },
+      "source": [
+        "print(shows)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "['Courage', 'Spongebob', 'Breaking Bad', 'Over the Garden Wall', 'idk']\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_lQyTBj2M7NT",
+        "outputId": "0bf56cca-2da2-4999-9377-0219d8b88db6"
+      },
+      "source": [
+        "print(sorted(shows))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "['Breaking Bad', 'Courage', 'Over the Garden Wall', 'Spongebob', 'idk']\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-efuwnauMjG-",
+        "outputId": "c8d986ae-b289-4288-cd66-cdb945d8697e"
+      },
+      "source": [
+        "print(shows)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "['Courage', 'Spongebob', 'Breaking Bad', 'Over the Garden Wall', 'idk']\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dGt_cnOWNdcR",
+        "outputId": "ab114a7a-a09f-4d13-9b9a-8a74418c40f6"
+      },
+      "source": [
+        "print(sorted(shows,reverse=True))\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "['idk', 'Spongebob', 'Over the Garden Wall', 'Courage', 'Breaking Bad']\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HFUYT46jN2ic",
+        "outputId": "3fbce3db-5e54-4b81-862e-9ae0462d4b2c"
+      },
+      "source": [
+        "message = \"I have \" + str(len(shows)) + \" favorite shows!\"\n",
+        "print(message)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "I have 5 favorite shows!\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xtUQMRcBCjY1"
+      },
+      "source": [
+        "# Unit2_L4"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "VDLHn2NACi1H",
+        "outputId": "297c707d-b95d-4ff4-b9b4-85d41132a381"
+      },
+      "source": [
+        "#1\n",
+        "var1 = \"c\"\n",
+        "var2 = \"b\"\n",
+        "var3 = \"a\"\n",
+        "var4 = \"e\"\n",
+        "var5 = \"d\"\n",
+        "\n",
+        "list = [var1, var2, var3, var4, var5]\n",
+        "print(list)\n",
+        "\n",
+        "#2\n",
+        "for var in list:\n",
+        "  print(var)\n",
+        "print()\n",
+        "#3\n",
+        "for i in range(len(list)):\n",
+        "  print(\"The element at index \"+str(i)+\" is \"+list[i])\n",
+        "#4\n",
+        "for i in range(0,21,2):\n",
+        "  print(i)\n",
+        "\n",
+        "#5\n",
+        "list.sort()\n",
+        "print(list)\n",
+        "\n",
+        "#6\n",
+        "print(list[:3])\n",
+        "\n",
+        "#7\n",
+        "for var in list[-2:]:\n",
+        "  print(var)\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "['c', 'b', 'a', 'e', 'd']\n",
+            "c\n",
+            "b\n",
+            "a\n",
+            "e\n",
+            "d\n",
+            "\n",
+            "The element at index 0 is c\n",
+            "The element at index 1 is b\n",
+            "The element at index 2 is a\n",
+            "The element at index 3 is e\n",
+            "The element at index 4 is d\n",
+            "0\n",
+            "2\n",
+            "4\n",
+            "6\n",
+            "8\n",
+            "10\n",
+            "12\n",
+            "14\n",
+            "16\n",
+            "18\n",
+            "20\n",
+            "['a', 'b', 'c', 'd', 'e']\n",
+            "['a', 'b', 'c']\n",
+            "d\n",
+            "e\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "BCYpH9-KFj-J"
+      },
+      "source": [
+        "# Unit2_L5"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dzpl5LPBFmx_",
+        "outputId": "44950896-cbbd-4452-cf22-83ea97c59eba"
+      },
+      "source": [
+        "#1\n",
+        "accounts = [\"aaa@aol.com\", \"bbb@aol.com\", \"ccc@aol.com\", \"ddd@aol.com\", \"admin@aol.com\", \"eee@aol.com\"]\n",
+        "\n",
+        "for acc in accounts: \n",
+        "  if(acc==\"admin@aol.com\"):\n",
+        "    print(\"So glad to have you back on oh special one!\")\n",
+        "  else:\n",
+        "    print(\"Hi\")\n",
+        "\n",
+        "print()\n",
+        "#2\n",
+        "list = []\n",
+        "for i in range(1,11):\n",
+        "  list.append(i)\n",
+        "\n",
+        "for el in list:\n",
+        "  if(el==1):\n",
+        "    print(str(el)+\"st\")\n",
+        "  elif(el==2):\n",
+        "    print(str(el)+\"nd\")\n",
+        "  elif(el==3):\n",
+        "    print(str(el)+\"rd\")\n",
+        "  else:\n",
+        "    print(str(el)+\"th\")\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "Hi\n",
+            "Hi\n",
+            "Hi\n",
+            "Hi\n",
+            "So glad to have you back on oh special one!\n",
+            "Hi\n",
+            "\n",
+            "1st\n",
+            "2nd\n",
+            "3rd\n",
+            "4th\n",
+            "5th\n",
+            "6th\n",
+            "7th\n",
+            "8th\n",
+            "9th\n",
+            "10th\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "stIyE0DxQ9G7"
+      },
+      "source": [
+        "#Unit2_L6\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JdHppjWOQiwu",
+        "outputId": "21704110-4de0-41f2-cff2-cc68def3a04e"
+      },
+      "source": [
+        "#1\n",
+        "name = {\n",
+        "    \"firstName\":\"Adnaan\",\n",
+        "    \"lastName\":\"Syed\"\n",
+        "    }\n",
+        "\n",
+        "print()\n",
+        "#2\n",
+        "print(name[\"firstName\"])\n",
+        "print(name[\"lastName\"])\n",
+        "\n",
+        "print()\n",
+        "#3\n",
+        "\n",
+        "print(\"Hello \" + name[\"firstName\"]+\" \"+name[\"lastName\"])\n",
+        "\n",
+        "print()\n",
+        "#4 \n",
+        "\n",
+        "students = {\n",
+        "    \"Adnaan Syed\": \"4.0\",\n",
+        "    \"Affra Husain\": \"3.5\",\n",
+        "    \"Fawzia Syed\": \"3.0\"\n",
+        "}\n",
+        "\n",
+        "for key,value in students.items():\n",
+        "  mssg = \"The student's name is {} and their GPA is {}\"\n",
+        "  print(mssg.format(key, value))\n",
+        "\n",
+        "print()\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "\n",
+            "Adnaan\n",
+            "Syed\n",
+            "\n",
+            "Hello Adnaan Syed\n",
+            "\n",
+            "The student's name is Adnaan Syed and their GPA is 4.0\n",
+            "The student's name is Affra Husain and their GPA is 3.5\n",
+            "The student's name is Fawzia Syed and their GPA is 3.0\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "g2lPSiHWR8Bu",
+        "outputId": "76c3ec9a-85a3-4278-f6db-ffc353cee642"
+      },
+      "source": [
+        "#5\n",
+        "favSubTopicsInTopics = {\n",
+        "    \"Math\": {\"Linear Algebra\":\"The collapse of higher dimensional data was interesting\", \"Statistics\":\"Regressional Analysis\"},\n",
+        "    \"English\": {\"Poetry\": \"Stream of Conciousness poetry was always fun\", \"Horror Stories\":\"SPOOOKY!!!\"},\n",
+        "    \"Gym\": {\"Basketball\":\"Only full-body sport I'm not terrible in\", \"Ping-Pong\": \"Less energy consuming but still lots of fun\"}\n",
+        "}\n",
+        "\n",
+        "for key,value in favSubTopicsInTopics.items():\n",
+        "  print(\"One of my fav subjects in school was \" + key)\n",
+        "  print(\"Some topics I liked in that were:\")\n",
+        "\n",
+        "  for subkey,subvalue in value.items():\n",
+        "    mssg = subkey + \", because \" + subvalue\n",
+        "    print(mssg)\n",
+        "\n",
+        "  print()\n",
+        "\n",
+        "  \n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "One of my fav subjects in school was Math\n",
+            "Some topics I liked in that were:\n",
+            "Linear Algebra, because The collapse of higher dimensional data was interesting\n",
+            "Statistics, because Regressional Analysis\n",
+            "\n",
+            "One of my fav subjects in school was English\n",
+            "Some topics I liked in that were:\n",
+            "Poetry, because Stream of Conciousness poetry was always fun\n",
+            "Horror Stories, because SPOOOKY!!!\n",
+            "\n",
+            "One of my fav subjects in school was Gym\n",
+            "Some topics I liked in that were:\n",
+            "Basketball, because Only full-body sport I'm not terrible in\n",
+            "Ping-Pong, because Less energy consuming but still lots of fun\n",
+            "\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "IbsjLrS6Ex3t"
+      },
+      "source": [
+        "#Python Project: Even or Odd?\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "njLe9-GZE0d3",
+        "outputId": "7449e35a-6f5e-400b-f868-28c4964335e4"
+      },
+      "source": [
+        "def evenOrOdd():\n",
+        "  \"\"\"Handles the primary objective of the project\"\"\"\n",
+        "\n",
+        "  mssg = int(input(\"Input a number: \"))\n",
+        "  if(mssg%2==0):\n",
+        "    if(mssg%4==0):\n",
+        "      print(\"The number you gave us is even and divisible by 4\")\n",
+        "    print(\"The number you inputted was even\")\n",
+        "  else:\n",
+        "    print(\"The number you gave us is odd\")\n",
+        "\n",
+        "  print()\n",
+        "\n",
+        "def isPerfectDivisor():\n",
+        "  \"\"\"Completes the extra assignment\"\"\"\n",
+        "\n",
+        "  num = int(input(\"Enter a dividend: \"))\n",
+        "  check = int(input(\"Enter a divisor: \"))\n",
+        "\n",
+        "  if(num%check==0):\n",
+        "    print(\"That's a perfect divisor for the number you gave us!\")\n",
+        "  else: \n",
+        "    print(\"Unfortunately, that is not a proper divisor for the number you gave us\")\n",
+        "\n",
+        "  print()\n",
+        "\n",
+        "\n",
+        "def main():\n",
+        "  \"\"\"defines the main function of the project\"\"\"\n",
+        "\n",
+        "  prompt = \"If you would like to check if your number is odd/even, please press\"\\\n",
+        "  \" p.\\nIf you would like to check if a number you give us can be divided by\"\\\n",
+        "  \" another number you give us, please press q.\\nIf you would like to quit\"\\\n",
+        "  \" the program, please input anything else: \"\n",
+        "  \n",
+        "  mssg = input(prompt)\n",
+        "\n",
+        "  while(mssg =='p' or mssg == 'q'):\n",
+        "    if(mssg=='p'):\n",
+        "      evenOrOdd()\n",
+        "    else :\n",
+        "      isPerfectDivisor()\n",
+        "\n",
+        "    mssg = input(prompt)\n",
+        "\n",
+        "\n",
+        "main()\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "If you would like to check if your number is odd/even, please press p.\n",
+            "If you would like to check if a number you give us can be divided by another number you give us, please press q.\n",
+            "If you would like to quit the program, please input anything else: q\n",
+            "Enter a dividend: 34\n",
+            "Enter a divisor: 3\n",
+            "Unfortunately, that is not a proper divisor for the number you gave us\n",
+            "\n",
+            "If you would like to check if your number is odd/even, please press p.\n",
+            "If you would like to check if a number you give us can be divided by another number you give us, please press q.\n",
+            "If you would like to quit the program, please input anything else: as;dlfj\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "S-6jq9H-KSWq"
+      },
+      "source": [
+        "if you want to write multiple lines in python editor, just use \" \\ \". Will consider the two lines the same line. \n",
+        "Have to rmbr putting quotations around boolean strings\n",
+        "When using the input function, python will automatically consdier the input a string. Have to castit to diff data type if you are consdiering it a different data type. "
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "kiSDIRnHLVzK"
+      },
+      "source": [
+        "#Python Project: Rock-Paper-Scissors!"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "bXeR5WrsGgXU"
+      },
+      "source": [
+        "initalMessage = \"Hello! This is a Rock-Paper-Scissors Program. Here are the\"\\\n",
+        "\" rules:\\nIf you want to choose rock, type 'Rock'.\\nIf you want to choose \"\\\n",
+        "\"scissors, type 'Scissors'.\\nIf you want to choose paper, type 'Paper'.\\n\"\\\n",
+        "\"If you want to quit, just type 'q'\\n\"\\\n",
+        "\"Now that you know the roles, we can start playing! First tell me your names\"\n",
+        "\n",
+        "print(initalMessage)\n",
+        "\n",
+        "rock = \"Rock\"\n",
+        "scissors = \"Scissors\"\n",
+        "paper = \"Paper\"\n",
+        "\n",
+        "plays = [rock, scissors, paper]\n",
+        "\n",
+        "first = input(\"First Player's name: \")\n",
+        "sec = input(\"Second Player's name: \")\n",
+        "\n",
+        "firstWinner = first + \" won! Enter new inputs if you want to play again. Other\"\\\n",
+        "\"wise, just type 'q' for inputs\"\n",
+        "secWinner = sec + \" won! Enter new inputs if you want to play again. Other\"\\\n",
+        "\"wise, just type 'q' for inputs\"\n",
+        "tie = \"It's a tie! Enter new inputs\"\n",
+        "\n",
+        "prompt = (\"Enter your inputs (make sure you don't see each other's inputs!)\")\n",
+        "print(prompt)\n",
+        "\n",
+        "firstInput = \" \"\n",
+        "secInput = \" \"\n",
+        "\n",
+        "while(not(firstInput==\"q\" or secInput == \"q\")):\n",
+        "\n",
+        "  firstInput = input(\"First player's input: \")\n",
+        "  secInput = input(\"Second player's input: \")\n",
+        "\n",
+        "  try:\n",
+        "    if(firstInput not in plays or secInput not in plays):\n",
+        "      raise ValueError()\n",
+        "    \n",
+        "    if(firstInput==secInput):\n",
+        "      print(tie)\n",
+        "    \n",
+        "    else:\n",
+        "\n",
+        "      if(firstInput==rock):\n",
+        "        if(secInput==scissors):\n",
+        "          print(firstWinner)\n",
+        "        else:\n",
+        "          print(secWinner)\n",
+        "\n",
+        "      if(firstInput==paper):\n",
+        "        if(secInput==rock):\n",
+        "          print(firstWinner)\n",
+        "        else:\n",
+        "          print(secWinner)\n",
+        "\n",
+        "      if(firstInput==scissors):\n",
+        "        if(secInput==paper):\n",
+        "          print(firstWinner)\n",
+        "        else:\n",
+        "          print(secWinner)\n",
+        "  \n",
+        "  except ValueError:\n",
+        "    print(\"One of the players inputted an unacceptable value. Enter new inputs\")\n",
+        "    continue\n",
+        "\n",
+        "  continue\n",
+        "    \n",
+        "\n",
+        "print(\"Hope you had a nice game!\")\n",
+        "\n",
+        "\n",
+        "  \n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "smVs8EgNOL1g"
+      },
+      "source": [
+        "- If you want the first n characters of a String, you can consider it as a list\n",
+        "e.g. First char of String = str[0]\n",
+        "- You can check if a variable is in a list by using 'in' (and also can check if its not in the list by using 'not in')\n",
+        "- you can *try* a piece of code do handle any exceptions that the code might throw. \n",
+        "- if there's certain operations you don't want the user to do, you can try the susceptible code and if the user does something sus you can **raise** an exception \n",
+        "\n",
+        "> e.g. raise ValueError()\n",
+        "\n",
+        "- then you can catch it with the **except** keyword, and then restart the loop w/ a **continue**\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "wZ_MYDnSN3aU"
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
